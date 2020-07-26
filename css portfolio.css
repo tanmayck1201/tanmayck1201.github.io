@@ -1,0 +1,206 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg {
+opacity: 60%;
+/* The image used */
+background-image: url("front image.jpg");
+
+/* Full height */
+height: 100%; 
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+text-align: center;
+position: relative;
+color: green;
+}
+
+
+
+.bl{
+position: absolute;
+top: -40px;
+left: 25%;  
+color: blue;
+font-size: 50px; 
+}
+
+
+h2.am{
+position: absolute;
+top: 125px;
+left: 43%;
+color: red;
+font-size: 45px;
+}
+
+
+.is{
+position: absolute;
+top: 205px;
+left: 36%;
+font-size: 30px;
+color: brown;
+}
+
+
+p.para{
+position: absolute;
+top: 260px;
+left: 20%;
+right: 10%;
+color: black;
+font-size: 30px;
+}
+
+/*front pg links*/
+#links{
+position: absolute;
+font-size: 30px;
+color: yellow;
+top: 70%;
+left: 40%;
+animation: blink-animation 2s steps(5, start) infinite;
+  -webkit-animation: blink-animation 2s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+
+
+h3{
+font-size: 45px;
+text-decoration: underline;
+}
+
+.cont1{
+position: absolute;
+top: 565px;
+color: purple;
+}
+
+.cont{
+position: absolute;
+left: 15%;
+top: 670px;
+font-size: 35px;
+}
+
+
+.sec{
+text-align: left;
+color: red;
+font-size: 40px;
+position: relative;
+left: 0.1%;
+}
+ 
+
+#para{
+text-align: left;
+color: white;
+position: relative;
+left: 0.1%;
+font-size: 22px;
+}
+
+
+.mi{
+font-size: 40px;
+color: red;
+}
+
+
+.int{
+font-size: 22px;
+color: white;
+}
+
+/*my photo*/
+.mephoto{
+filter: drop-shadow(15px 15px 15px red);
+-webkit-filter: drop-shadow(15px 15px 15px red);
+}
+
+
+.education{
+color: white;
+padding: 5px;
+margin-left: 30px;
+}
+
+
+.edu{
+color: red;
+font-size: 45px;
+padding: 5px;
+margin-bottom: 5px;
+}
+
+
+#exp{
+font-size: 40px;
+color: red;
+}
+
+
+.ach{
+font-size: 21px;
+color: white;
+}
+
+
+.hello{
+font-size: 32px;
+color: purple;
+text-decoration: none;
+}
+
+
+strong{
+text-decoration: underline;
+}
+
+/*for button*/
+.but{
+font-size: 35px;
+background-color: #FFFFFF;
+  border: 2px red;
+  filter: drop-shadow(7px 7px 7px blue);
+ -webkit-filter: drop-shadow(7px 7px 7px blue);
+}
+
+
+/*link hovering*/
+a:hover{
+color: red;
+}
+
+
+/*for footer*/
+.fot{
+font-size: 25px;
+position: absolute;
+top: 825px;
+left: 37%;
+}
+
+
+.fot2{
+font-size: 25px;
+}
